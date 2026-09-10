@@ -73,6 +73,42 @@ Server: Kestrel
 
 ```
 
+### GET:
+
+```
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: application/json; charset=utf-8
+Date: Thu, 10 Sep 2026 18:08:02 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+
+[
+  {
+    "id": 1,
+    "name": "Classic Italian",
+    "isGlutenFree": false
+  },
+  {
+    "id": 2,
+    "name": "Veggie",
+    "isGlutenFree": true
+  },
+  {
+    "id": 3,
+    "name": "Pepperoni",
+    "isGlutenFree": false
+  },
+  {
+    "id": 4,
+    "name": "Hawaiian",
+    "isGlutenFree": false
+  }
+]
+
+```
+
 ### GET by Id:
 
 ```
